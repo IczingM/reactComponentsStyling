@@ -39,3 +39,29 @@
 .read-the-docs {
   color: #888;
 }
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.button-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.button-item span {
+  width: 100px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
